@@ -1,0 +1,14 @@
+{
+	"name": "medio bot",
+	"description": "Run telegram bot on heroku",
+	"repository": "https://github.com/666wcy/seach_photo-telegram-bot-heroku",
+	"keywords": ["telegram"],
+	"stack": "container",
+	"env": {
+			"Title": {
+				"description": "Title",
+				"value":""
+			}
+		}
+	
+}
