@@ -18,5 +18,9 @@ COPY . /YYeTsBot
 RUN apk update && apk add --no-cache libressl
 
 ENV TZ=Asia/Shanghai
+WORKDIR /web/prepare
+CMD ["python", "convert_db.py"]
+
+ENV TZ=Asia/Shanghai
 WORKDIR /YYeTsBot/yyetsbot
 CMD ["python", "yyetsbot.py"]
