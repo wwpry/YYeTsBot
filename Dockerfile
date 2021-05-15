@@ -12,8 +12,11 @@ RUN pip3 install  --user -r /requirements.txt && rm /requirements.txt
 FROM python:3.9-alpine
 
 COPY --from=builder /root/.local /usr/local
+RUN true
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+RUN true
 COPY --from=builder /usr/share/zoneinfo /usr/share/zoneinfo
+RUN true
 COPY . /YYeTsBot
 RUN apk update && apk add --no-cache libressl
 
