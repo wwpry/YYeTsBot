@@ -30,7 +30,7 @@ PASSWORD = os.environ.get("PASSWORD") or "password"
 
 # network and server config
 PROXY = os.environ.get("PROXY")
-#REDIS = os.environ.get("REDIS") or "redis"
+REDIS = os.environ.get("REDIS") or "redis"
 MONGO = os.environ.get("MONGO") or "mongo"
 
 # other
