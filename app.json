@@ -5,10 +5,18 @@
 	"keywords": ["telegram"],
 	"stack": "container",
 	"env": {
-			"Title": {
-				"description": "Title",
+			"TOKEN": {
+				"description": "bot TOKEN",
 				"value":""
-			}
-		}
+			},
+		        "USERNAME": {
+				"description": "人人影视的有效的用户名",
+				"value": ""
+			},
+		        "PASSWORD": {
+				"description": "人人影视的有效的密码",
+				"value": ""
+	               },
+		}             
 	
 }
