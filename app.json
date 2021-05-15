@@ -17,6 +17,14 @@
 				"description": "人人影视的有效的密码",
 				"value": ""
 	               },
+		       "MAINTAINER": {
+				"description": "user ID",
+				"value": ""
+	               },
+		       "REDIS": {
+				"description": "localhost",
+				"value": ""
+	               }
 		}             
 	
 }
